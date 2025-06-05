@@ -66,7 +66,12 @@ class Stack
                     cout << current->data << " " << endl;
                     current = current->next; 
                 }
-            }
+                cout << endl;
+            }// Return the value of the top node
         }
 
+        bool isEmpty()
+        {
+            return top == NULL; 
+        }
 };

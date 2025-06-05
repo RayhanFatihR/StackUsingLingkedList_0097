@@ -77,3 +77,6 @@ class Stack
 };
 
 int main()
+{
+    S
+}

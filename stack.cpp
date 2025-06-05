@@ -61,7 +61,11 @@ class Stack
             else
             {
                 Node *current = top; 
-                while 
+                while (current != NULL)
+                {
+                    cout << current->data << " " << endl;
+                    current = current->next; 
+                }
             }
         }
 

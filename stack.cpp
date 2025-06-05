@@ -50,4 +50,8 @@ class Stack
             top = temp->next; // Update the top pointer to the next node
             delete temp; 
         }
-}
+
+        // Peek/Top operation: Retrieve the value of the topmost
+        void peek()
+        
+};

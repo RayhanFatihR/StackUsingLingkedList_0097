@@ -98,7 +98,16 @@ int main()
                 cout << "Enter the value to push: ";
                 cin >> value;
                 stack.push(value);
-            
+                break;
+            case 2:
+                stack.pop();
+                break;
+            case 3:
+                stack.peek();
+                break;
+            case 4:
+                cout << "Exiting the program." << endl;
+                break;
         }
     }
 }
